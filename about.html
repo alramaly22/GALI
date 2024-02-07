@@ -28,6 +28,20 @@
       <title>About Galiloo</title>
     </head>
     <body>
+        <div class="loader">
+            <h1 class="loading">
+                Loading
+                <div class="loading__dots">
+                    <span class="loading__dot"></span>
+                    <span class="loading__dot"></span>
+                    <span class="loading__dot"></span>
+                    <span class="loading__dot">
+                        <span class="loading__dot-down"></span>
+                    </span>
+                </div>
+            </h1>
+        </div>
+
         <header class="header" id="header">
             <a href="#" style="width: 120px;" class="header__logo"><img src="assets/img/PERSONALLOGO.png" alt="" class="nav__image1"></a>
 
@@ -50,9 +64,9 @@
                         <ul class="nav__list">
                             <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
                             <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                            <li class="nav__item"><a href="#" class="nav__link">Skills</a></li>
-                            <li class="nav__item"><a href="#" class="nav__link">Portfolio</a></li>
-                            <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                            <li class="nav__item"><a href="#calc" class="nav__link">Calc</a></li>
+                            <li class="nav__item"><a href="#testimonial" class="nav__link">Testimonial</a></li>
+                            <li class="nav__item"><a href="#contact" class="nav__link">contact</a></li>
                         </ul>
                     </div>
     
@@ -86,7 +100,7 @@
                     <p class="home__description">
                         Welcome to Galiloo, your ultimate destination for fitness guidance and inspiration.
                     </p>
-                    <a href="#about" class="button button--flex">
+                    <a href="pricing.html" class="button button--flex">
                         Get Started <i class="ri-arrow-right-circle-fill"></i>
                     </a>
                 </div>
@@ -154,201 +168,13 @@
                     </div>
                 </div>
                 <div class="about__buttons">
-                    <a href="#" class="button button--flex">Know More <i class="ri-compass-discover-fill"></i></a>
+                    <!-- <a href="#" class="button button--flex">Know More <i class="ri-compass-discover-fill"></i></a> -->
                 </div>
             </div>
         </div>
         </section>
-
-         <!--==================== FAVORITE ====================-->
-         <!-- <section id="tranding">
-            <div class="containero">
-              <h3 class="section__title">Transformation</h3>
-            </div>
-            <div class="containero">
-              <div class="swiper tranding-slider">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide tranding-slide">
-                    <div class="tranding-slide-img">
-                      <img src="assets/img/tran1.jpg" alt="Tranding">
-                    </div>
-                    <div class="tranding-slide-content">
-                     
-                      <div class="tranding-slide-content-bottom">
-                      
-                      </div>
-                    </div>
-                  </div>
-                
-                  <div class="swiper-slide tranding-slide">
-                    <div class="tranding-slide-img">
-                      <img src="assets/img/tran2.JPG" alt="Tranding">
-                    </div>
-                    <div class="tranding-slide-content">
-                   
-                      <div class="tranding-slide-content-bottom">
-                      
-                      </div>
-                    </div>
-                  </div>
-            
-                  <div class="swiper-slide tranding-slide">
-                    <div class="tranding-slide-img">
-                      <img src="assets/img/tran3.JPG" alt="Tranding">
-                    </div>
-                    <div class="tranding-slide-content">
-                     
-                      <div class="tranding-slide-content-bottom">
-                      
-                      </div>
-                    </div>
-                  </div>
-                
-                  <div class="swiper-slide tranding-slide">
-                    <div class="tranding-slide-img">
-                      <img src="assets/img/tran4.JPG" alt="Tranding">
-                    </div>
-                    <div class="tranding-slide-content">
-                  
-                      <div class="tranding-slide-content-bottom">
-                       
-                    
-                        <h3 class="food-rating">
-                         
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div class="swiper-slide tranding-slide">
-                    <div class="tranding-slide-img">
-                      <img src="assets/img/tran5.JPG" alt="Tranding">
-                    </div>
-                    <div class="tranding-slide-content">
-                    
-                      <div class="tranding-slide-content-bottom">
-                    
-                        <h3 class="food-rating">
-                    
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-              
-                  <div class="swiper-slide tranding-slide">
-                    <div class="tranding-slide-img">
-                      <img src="assets/img/tran6.PNG" alt="Tranding">
-                    </div>
-                    <div class="tranding-slide-content">
-              
-                      <div class="tranding-slide-content-bottom">
-                    
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div class="swiper-slide tranding-slide">
-                    <div class="tranding-slide-img">
-                      <img src="assets/img/tran7.PNG" alt="Tranding">
-                    </div>
-                    <div class="tranding-slide-content">
-                
-                      <div class="tranding-slide-content-bottom">
-                     
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide tranding-slide">
-                    <div class="tranding-slide-img">
-                      <img src="assets/img/tran8.PNG" alt="Tranding">
-                    </div>
-                    <div class="tranding-slide-content">
-                
-                      <div class="tranding-slide-content-bottom">
-                     
-                      </div>
-                    </div>
-                  </div>
-                </div>
-      
-                <div class="tranding-slider-control">
-                  <div class="swiper-button-prev slider-arrow">
-                    <ion-icon name="arrow-back-outline"></ion-icon>
-                  </div>
-                  <div class="swiper-button-next slider-arrow">
-                    <ion-icon name="arrow-forward-outline"></ion-icon>
-                  </div>
-                  <div class="swiper-pagination"></div>
-                </div>
-      
-              </div>
-            </div>
-          </section> -->
-            <!--==================== nutrantion ====================-->
-            <!-- <section class="nutrantion section container" id="nutrantion">
-                <div class="nutrantion__container grid">
-                    <img src="assets/img/healthy.jpg" alt="" class="nutrantion__img">
-
-                    <div class="nutrantion__data">
-                        <h2 class="section__title nutrantion__title">
-                            NEVER STRESS ABOUT <br> NUTRITION AGAIN
-                        </h2>
-
-                        <p class="nutrantion__description">
-                            With over 400 tailored nutrition plans, we cater to each client's goals and preferences.
-                        </p>
-                        
-
-                        <div class="nutrantion__details">
-                            <p class="nutrantion__details-description nutrantion__details-icon">
-                                <i class="ri-cake-3-line"></i>
-                                Manage your food composition
-                            </p>
-                            <p class="nutrantion__details-description nutrantion__details-icon">
-                                <i class="ri-clipboard-fill"></i>
-                                Tailored meal plans to meet your goals
-                            </p>
-                            <p class="nutrantion__details-description nutrantion__details-icon">
-                                <i class="ri-restaurant-fill"></i>
-                                Balanced and nutritious meals
-                            </p>
-                            <p class="nutrantion__details-description nutrantion__details-icon">
-                                <i class="ri-thumb-up-fill"></i>
-                                Optimize protein intake for muscle growth
-                            </p>
-                        </div>
-
-                        <a href="#" class="button">
-                            Get Start <i class="ri-arrow-right-up-line button__icon"></i>
-                        </a>
-                    </div>
-                </div>
-            </section> -->
-         <!--==================== Recently ====================-->
-         <!-- <section class="recently section" id="calculate">
-            <div class="recently__container container grid">
-                <div class="recently__data">
-                    <span class="section__subtitle">
-                        Recently Added
-                    </span>
-                    <h2 class="section__title">
-                        sushi samurai <br>
-                        salmon cheese
-                    </h2>
-                    <p class="recently__description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quaerat perspiciatis ipsa ea fugiat neque veniam sint nihil possimus eum! Voluptatibus sint delectus nobis nisi earum vero, ducimus error. Suscipit?
-
-                    </p>
-                    <a href="#" class="button">
-                        TRY NOW <i class="ri-gift-fill"></i>
-                    </a>
-                </div>
-                <img src="assets/img/PERSONALLOGO.png" alt="" class="recently__img">
-            </div>
-            
-         </section> -->
                  <!--==================== Recently ====================-->
-                 <section class="nutrantion section container" id="calc">
+        <section class="nutrantion section container" id="calc">
                     <div class="nutrantion__container grid">
                         <img src="assets/img/nnimage-removebg-preview.png" alt="" class="nutrantion__img nutrantion__img2">
         
@@ -380,15 +206,15 @@
                                 </p>
                             </div>
         
-                            <a href="#" class="button">
+                            <a href="calc.html" class="button">
                                 Get Start <i class="ri-arrow-right-down-line button__icon"></i>
                             </a>
                         </div>
                     </div>
-                </section>
+        </section>
         
          <!--==================== testimonial ====================-->
-         <section class="testimonial section">
+         <section class="testimonial section" id="testimonial">
             <h2 class="section__title">
                 What They Say <br>
                 About Me?
@@ -554,6 +380,7 @@
         <a href="#" class="scrollup" id="scroll-up"><i class="fa-solid fa-circle-arrow-up scrollup__icon"></i></a>
 
         <!--=============== MAIN JS ===============-->
+        <script src="assets/js/loader.js"></script>
          <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
          <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
          <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
