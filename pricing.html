@@ -28,6 +28,20 @@
       <title>Pricing</title>
     </head>
     <body>
+        <div class="loader">
+            <h1 class="loading">
+                Loading
+                <div class="loading__dots">
+                    <span class="loading__dot"></span>
+                    <span class="loading__dot"></span>
+                    <span class="loading__dot"></span>
+                    <span class="loading__dot">
+                        <span class="loading__dot-down"></span>
+                    </span>
+                </div>
+            </h1>
+        </div>
+
         <header class="header" id="header">
             <a href="#" style="width: 120px;" class="header__logo"><img src="assets/img/PERSONALLOGO.png" alt="" class="nav__image1"></a>
 
@@ -49,10 +63,10 @@
                     <div class="nav__menu">
                         <ul class="nav__list">
                             <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                            <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                            <li class="nav__item"><a href="#" class="nav__link">Skills</a></li>
-                            <li class="nav__item"><a href="#" class="nav__link">Portfolio</a></li>
-                            <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                            <li class="nav__item"><a href="#Transformation" class="nav__link">Transformation</a></li>
+                            <li class="nav__item"><a href="#pric" class="nav__link">Pricing</a></li>
+                            <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                            <li class="nav__item"><a href="#accordion" class="nav__link">Faq</a></li>
                         </ul>
                     </div>
     
@@ -69,23 +83,13 @@
         <main class="main">
         <!--==================== HOME ====================-->
         <section class="home home2" id="home">
-            <!-- <div class="video-container">
-                <video class="home__video" autoplay muted loop>
-                    <source src="assets/videos/video2.mp4" type="video/mp4" type="video/mp4">
-                </video>
-                <div class="video-overlay"></div>
-            </div> -->
-            <!-- <div class="home__img">
-
-            </div> -->
             <div class="home__container container grid">
                 <div class="home__data">
                     <h1 class="home__title">
-                        Green your life<br> thrive with plants
+                        Transform your<br> body with Galiloo
                     </h1>
                     <p class="home__description">
-                        Create incredible plant design for your offices or apastaments. 
-                        Add fresness to your new ideas.
+                        Welcome to Galiloo, your ultimate destination for fitness guidance and inspiration.
                     </p>
                   
                 </div>
@@ -130,7 +134,7 @@
             </div>
         </div>
          <!--==================== FAVORITE ====================-->
-         <section id="tranding">
+         <section id="tranding" id="Transformation">
             <div class="containero">
               <h3 class="section__title">Transformation</h3>
             </div>
@@ -254,11 +258,10 @@
             </div>
           </section>
          <!--==================== pricing ====================-->
-
-         <section class="ppric" data-aos="fade-right">
+         <section class="ppric" data-aos="fade-right" id="pric">
     
 
-            <section class="pricing containercard grid" id="pric">
+            <section class="pricing containercard grid" >
                 <h2 data-lang="prih2" class="section__title">PRICING & PLANS
         
                 </h2>
@@ -306,7 +309,7 @@
                             </li>
                         </ul>
         
-                        <a data-lang="subscr"  class="button pricing__button" >Join now <i class="ri-compass-discover-fill"></i></a>
+                        <a data-lang="subscr" href="#" class="button pricing__button" >Join now <i class="ri-compass-discover-fill"></i></a>
                     </article>
         
                     <!--==================== CARD 2 ====================-->
@@ -352,7 +355,7 @@
                         </ul>
                         
         
-                        <a data-lang="subscr" href="form.html" class="pricing__button button">Join now <i class="ri-compass-discover-fill"></i></a>
+                        <a data-lang="subscr" href="#" class="pricing__button button">Join now <i class="ri-compass-discover-fill"></i></a>
                     </article>
         
                     <!--==================== CARD 3 ====================-->
@@ -401,7 +404,7 @@
                             </li>
                         </ul>
         
-                        <a data-lang="subscr" href="form.html" class="pricing__button button">Join now <i class="ri-compass-discover-fill"></i></a>
+                        <a data-lang="subscr" href="#" class="pricing__button button">Join now <i class="ri-compass-discover-fill"></i></a>
                     </article>
                 </div>
             </section>
@@ -511,7 +514,7 @@
                     </a>
                 </div>
                 <span class="footer__copy">
-                    &#169; Copyright <a href="#">Mo ALramly</a>.All Rights Reserved
+                    &#169; Copyright <a class="ramaly"  href="#">Mo ALramly</a>.All Rights Reserved
                 </span>
             </div>
         </footer>
@@ -519,6 +522,7 @@
         <a href="#" class="scrollup" id="scroll-up"><i class="fa-solid fa-circle-arrow-up scrollup__icon"></i></a>
 
         <!--=============== MAIN JS ===============-->
+        <script src="assets/js/loader.js"></script>
          <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
          <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
          <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
