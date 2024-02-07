@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+       <!--=============== FAVICON ===============-->
+       <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+
+       <!--=============== BOXICONS ===============-->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <link
+       href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+       rel="stylesheet"
+     />
+     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+       <!--=============== SWIPER CSS ===============--> 
+       <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+      <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/main.css">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="stylesheet" href="assets/css/navmain.css">
+      <title>Galilo</title>
+    </head>
+    <body>
+        <header class="header">
+            <a href="#" style="width: 120px;" class="header__logo"><img src="assets/img/PERSONALLOGO.png" alt="" class="nav__image1"></a>
+
+            <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
+
+            <nav class="nav" id="nav-menu">
+                <div class="nav__content bd-grid">
+
+                    <ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon>
+    
+                    <div class="nav__perfil">
+                        <div class="nav__img">
+                            <img src="assets/img/PERSONALLOGO.png" alt="">
+                        </div>
+                        
+                        <div>
+                            <a href="#" class="nav__name">Galilo</a>
+                            <!-- <span class="nav__profesion">Web designer</span> -->
+                        </div>
+                    </div>
+    
+                    <div class="nav__menu">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                            <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Skills</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Portfolio</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="nav__social">
+                        <a href="#" class="nav__social-icon"><i class="ri-facebook-fill"></i></a>
+                        <a href="#" class="nav__social-icon"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="#" class="nav__social-icon"><i class="ri-instagram-line"></i></a>
+                        <a href="#" class="nav__social-icon"><i class="ri-youtube-fill"></i></a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!--=============== MAIN ===============-->
+        <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <div class="video-container">
+                <video class="home__video" autoplay muted loop>
+                    <source src="assets/videos/vid1 (2).mp4" type="video/mp4" type="video/mp4">
+                </video>
+                <div class="video-overlay"></div>
+            </div>
+            <div class="home__img">
+
+            </div>
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Grow stronger with <br> plants and workouts
+                    </h1>
+                    <p class="home__description">
+                        Create incredible plant design for your offices or apastaments. 
+                        Add fresness to your new ideas.
+                    </p>
+                    <a href="#about" class="button button--flex">
+                        Get Start <i class="ri-arrow-right-circle-fill"></i>
+                    </a>
+                </div>
+
+                <div class="home__social">
+                    <span class="home__social-follow">Follow Us</span>
+
+                    <div class="home__social-links">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            <i class="fa-brands fa-tiktok"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            <i class="ri-youtube-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==================== social ====================-->
+        <!-- <div class="social">
+            <div class="social__container">
+                <div class="social__content">
+                    <i class='bx bxl-facebook-circle social__icon'></i>
+                    <div class="social__tooltip social__tooltip-left">15000 +</div>
+                </div>
+
+                <div class="social__content">
+                    <i class='bx bxl-instagram-alt social__icon'></i>
+                    <span class="social__tooltip social__tooltip-top">10000 +</span>
+                </div>
+
+                <div class="social__content">
+                    <i class='bx bxl-twitter social__icon' ></i>
+                    <span class="social__tooltip social__tooltip-bottom">12000 +</span>
+                </div>
+
+                <div class="social__content">
+                    <i class='bx bxl-github social__icon' ></i>
+                    <span class="social__tooltip social__tooltip-top">1500 +</span>
+                </div>
+
+                <div class="social__content">
+                    <i class='bx bxl-discord social__icon' ></i>
+                    <span class="social__tooltip social__tooltip-right">800 +</span>
+                </div>
+            </div>
+        </div> -->
+         <!--==================== ABOUT ====================-->
+         <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My Introduction</span>
+        <div class="about__container container grid">
+            <img src="assets/img/galilo.jpg" alt="" class="about__img">
+            <div class="about__data">
+                <p class="about__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit velit magni temporibus culpa quaerat, magnam sit vitae optio provident reiciendis quis? Ipsam eum deserunt nulla nostrum repudiandae dolorum laborum voluptatum!</p>
+                <div class="about__info">
+                    <div>
+                        <span class="about__info-title">+08</span>
+                        <span class="about__info-name">Years <br>Experience</span>
+                    </div>
+                    <div>
+                        <span class="about__info-title">+08</span>
+                        <span class="about__info-name">Years <br>Experience</span>
+                    </div>
+                    <div>
+                        <span class="about__info-title">+08</span>
+                        <span class="about__info-name">Years <br>Experience</span>
+                    </div>
+                </div>
+                <div class="about__buttons">
+                    <a href="#" class="button button--flex">Know More <i class="ri-compass-discover-fill"></i></a>
+                </div>
+            </div>
+        </div>
+        </section>
+
+         <!--==================== FAVORITE ====================-->
+         <!-- <section id="tranding">
+            <div class="containero">
+              <h3 class="section__title">Transformation</h3>
+            </div>
+            <div class="containero">
+              <div class="swiper tranding-slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide tranding-slide">
+                    <div class="tranding-slide-img">
+                      <img src="assets/img/tran1.jpg" alt="Tranding">
+                    </div>
+                    <div class="tranding-slide-content">
+                     
+                      <div class="tranding-slide-content-bottom">
+                      
+                      </div>
+                    </div>
+                  </div>
+                
+                  <div class="swiper-slide tranding-slide">
+                    <div class="tranding-slide-img">
+                      <img src="assets/img/tran2.JPG" alt="Tranding">
+                    </div>
+                    <div class="tranding-slide-content">
+                   
+                      <div class="tranding-slide-content-bottom">
+                      
+                      </div>
+                    </div>
+                  </div>
+            
+                  <div class="swiper-slide tranding-slide">
+                    <div class="tranding-slide-img">
+                      <img src="assets/img/tran3.JPG" alt="Tranding">
+                    </div>
+                    <div class="tranding-slide-content">
+                     
+                      <div class="tranding-slide-content-bottom">
+                      
+                      </div>
+                    </div>
+                  </div>
+                
+                  <div class="swiper-slide tranding-slide">
+                    <div class="tranding-slide-img">
+                      <img src="assets/img/tran4.JPG" alt="Tranding">
+                    </div>
+                    <div class="tranding-slide-content">
+                  
+                      <div class="tranding-slide-content-bottom">
+                       
+                    
+                        <h3 class="food-rating">
+                         
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="swiper-slide tranding-slide">
+                    <div class="tranding-slide-img">
+                      <img src="assets/img/tran5.JPG" alt="Tranding">
+                    </div>
+                    <div class="tranding-slide-content">
+                    
+                      <div class="tranding-slide-content-bottom">
+                    
+                        <h3 class="food-rating">
+                    
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+              
+                  <div class="swiper-slide tranding-slide">
+                    <div class="tranding-slide-img">
+                      <img src="assets/img/tran6.PNG" alt="Tranding">
+                    </div>
+                    <div class="tranding-slide-content">
+              
+                      <div class="tranding-slide-content-bottom">
+                    
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="swiper-slide tranding-slide">
+                    <div class="tranding-slide-img">
+                      <img src="assets/img/tran7.PNG" alt="Tranding">
+                    </div>
+                    <div class="tranding-slide-content">
+                
+                      <div class="tranding-slide-content-bottom">
+                     
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide tranding-slide">
+                    <div class="tranding-slide-img">
+                      <img src="assets/img/tran8.PNG" alt="Tranding">
+                    </div>
+                    <div class="tranding-slide-content">
+                
+                      <div class="tranding-slide-content-bottom">
+                     
+                      </div>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="tranding-slider-control">
+                  <div class="swiper-button-prev slider-arrow">
+                    <ion-icon name="arrow-back-outline"></ion-icon>
+                  </div>
+                  <div class="swiper-button-next slider-arrow">
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+      
+              </div>
+            </div>
+          </section> -->
+            <!--==================== nutrantion ====================-->
+            <section class="nutrantion section container" id="nutrantion">
+                <div class="nutrantion__container grid">
+                    <img src="assets/img/healthy.jpg" alt="" class="nutrantion__img">
+
+                    <div class="nutrantion__data">
+                        <h2 class="section__title nutrantion__title">
+                            NEVER STRESS ABOUT <br> NUTRITION AGAIN
+                        </h2>
+
+                        <p class="nutrantion__description">
+                            We have over 4000+ unbiased reviews and our customers 
+                            trust our plant process and delivery service every time
+                        </p>
+
+                        <div class="nutrantion__details">
+                            <p class="nutrantion__details-description nutrantion__details-icon">
+                                <i class="ri-cake-3-line"></i>
+                                We always deliver on time.
+                            </p>
+                            <p class="nutrantion__details-description nutrantion__details-icon">
+                                <i class="ri-clipboard-fill"></i>
+                                We give you guides to protect and care for your plants.
+                            </p>
+                            <p class="nutrantion__details-description nutrantion__details-icon">
+                                <i class="ri-restaurant-fill"></i>
+                                We always come over for a check-up after sale.
+                            </p>
+                            <p class="nutrantion__details-description nutrantion__details-icon">
+                                <i class="ri-thumb-up-fill"></i>
+                                100% money back guaranteed.
+                            </p>
+                        </div>
+
+                        <a href="#" class="button">
+                            Get Start <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+         <!--==================== Recently ====================-->
+         <!-- <section class="recently section" id="calculate">
+            <div class="recently__container container grid">
+                <div class="recently__data">
+                    <span class="section__subtitle">
+                        Recently Added
+                    </span>
+                    <h2 class="section__title">
+                        sushi samurai <br>
+                        salmon cheese
+                    </h2>
+                    <p class="recently__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quaerat perspiciatis ipsa ea fugiat neque veniam sint nihil possimus eum! Voluptatibus sint delectus nobis nisi earum vero, ducimus error. Suscipit?
+
+                    </p>
+                    <a href="#" class="button">
+                        TRY NOW <i class="ri-gift-fill"></i>
+                    </a>
+                </div>
+                <img src="assets/img/PERSONALLOGO.png" alt="" class="recently__img">
+            </div>
+            
+         </section> -->
+         <!--==================== accordion ====================-->
+         <!-- <section class="accordion container" id="accordion">
+            <div class="accordion__container">
+                <div class="accordion__item">
+                    <header class="accordion__header">
+                        <i class='bx bx-plus accordion__icon'></i>
+                        <h3 class="accordion__title">What's an accordion?</h3>
+                    </header>
+    
+                    <div class="accordion__content">
+                        <p class="accordion__description">
+                            An accordion always contains the category title, an expanded and a collapsed state, 
+                            an icon indicating expansion, and the spacing between them.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordion__item">
+                    <header class="accordion__header">
+                        <i class='bx bx-plus accordion__icon'></i>
+                        <h3 class="accordion__title">When and how should it be used?</h3>
+                    </header>
+    
+                    <div class="accordion__content">
+                        <p class="accordion__description">
+                            It should be used when users only need a few key concepts or descriptions 
+                            of the content on a single page.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordion__item">
+                    <header class="accordion__header">
+                        <i class='bx bx-plus accordion__icon'></i>
+                        <h3 class="accordion__title">What happens if the user clicks on a collapsed card while another card is open?</h3>
+                    </header>
+    
+                    <div class="accordion__content">
+                        <p class="accordion__description">
+                            It happens that the open card was closed, to give way to the information of the next 
+                            open card, but there are different designs that prefer it the other way around.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordion__item">
+                    <header class="accordion__header">
+                        <i class='bx bx-plus accordion__icon'></i>
+                        <h3 class="accordion__title">How to choose an icon to indicate expansion?</h3>
+                    </header>
+    
+                    <div class="accordion__content">
+                        <p class="accordion__description">
+                            You must choose a different icon to open and close, so that the user 
+                            understands what action he took.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+         <!--==================== contact ====================-->
+         <!-- <section class="contact section" id="contact">
+            <h3 class="section__subtitle">
+                Get in <span>Touch</span>
+            </h3>
+            <h2 class="section__title">
+                contact me
+            </h2>
+            <div class="contact__container container grid">
+                <form action="" class="contact__form" id="contact-form">
+                    <div class="contact__group">
+                        <input type="text" name="user_name" required placeholder="Enter Your name" class="contact__input">
+                        <input type="email" name="user_eamil" required placeholder="Enter Your email" class="contact__input">
+                    </div>
+                    <textarea name="user_project" required placeholder="Enter Your message"  class="contact__input"></textarea>
+                    <p class="contact__message" id="contact-message"></p>
+                    <button type="submit" class="button contact__button">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+         </section> -->
+         <!--==================== testimonial ====================-->
+         <!-- <section class="testimonial section">
+            <h2 class="section__title">
+                What They Say <br>
+                About Me?
+            </h2>
+            <div class="testimonial__container container">
+                <div class="testimonial__swiper swiper">
+                    <div class="swiper-wrapper">
+                        <article class="testimoial__card swiper-slide">
+                            <div class="testimonial__border">
+                                <img src="assets/img/personal1.jpg" alt="" class="testimonial__img">
+                            </div>
+                            <h2 class="testimonial__name">Jen Will</h2>
+                            <p class="testimonial__description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit rerum corporis delectus recusandae iste! At, expedita ad iusto ipsum iure accusantium. Earum, est odio dolorem voluptatibus illum itaque aliquid recusandae?
+                            </p>
+                        </article>
+                        <article class="testimoial__card swiper-slide">
+                            <div class="testimonial__border">
+                                <img src="assets/img/personal1.jpg" alt="" class="testimonial__img">
+                            </div>
+                            <h2 class="testimonial__name">Jen Will</h2>
+                            <p class="testimonial__description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit rerum corporis delectus recusandae iste! At, expedita ad iusto ipsum iure accusantium. Earum, est odio dolorem voluptatibus illum itaque aliquid recusandae?
+                            </p>
+                        </article>
+                        <article class="testimoial__card swiper-slide">
+                            <div class="testimonial__border">
+                                <img src="assets/img/personal1.jpg" alt="" class="testimonial__img">
+                            </div>
+                            <h2 class="testimonial__name">Jen Will</h2>
+                            <p class="testimonial__description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit rerum corporis delectus recusandae iste! At, expedita ad iusto ipsum iure accusantium. Earum, est odio dolorem voluptatibus illum itaque aliquid recusandae?
+                            </p>
+                        </article>
+                        <article class="testimoial__card swiper-slide">
+                            <div class="testimonial__border">
+                                <img src="assets/img/personal1.jpg" alt="" class="testimonial__img">
+                            </div>
+                            <h2 class="testimonial__name">Jen Will</h2>
+                            <p class="testimonial__description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit rerum corporis delectus recusandae iste! At, expedita ad iusto ipsum iure accusantium. Earum, est odio dolorem voluptatibus illum itaque aliquid recusandae?
+                            </p>
+                        </article>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+         </section> -->
+         <!--==================== pricing ====================-->
+
+         <section class="ppric" data-aos="fade-right">
+    
+
+            <section class="pricing containercard grid" id="pric">
+                <h2 data-lang="prih2" class="section__title">PRICING & PLANS
+        
+                </h2>
+        
+                <div class="pricing__container grid">
+                    <!--==================== CARD 1 ====================-->
+                    <article class="pricing__content grid">
+                        <div class="pricing__pricing">
+                            <div class="pricing__pricing-number">
+                                <span data-lang="rightprice1" class="pricing__pricing-symbolo">£/750</span>
+                            </div>
+                            <span data-lang="pris2" class="pricing__pricing-month">12/weeks</span>
+                        </div>
+        
+                        <header class="pricing__header">
+                            <div class="pricing__header-circle grid">
+                                <img src="assets/img/free-coin.webp" alt="" class="pricing__header-img">
+                            </div>
+                            
+                            <span data-lang="prisbr" class="pricing__header-subtitle">Bronze</span>
+                            <h1 data-lang="prisbas2" class="centerpricing pricing__header">currently inactive</h1>
+        
+                        </header>
+                        
+                        <ul class="pricing__list grid">
+                            <li class="pricing__list-item">
+                                <i class="uil uil-check pricing__list-icon"></i>
+                                <p data-lang="prisilvep1" class="pricing__list-description">Custom nutrition plan</p>
+                            </li>
+                            <li class="pricing__list-item">
+                                <i class="uil uil-check pricing__list-icon"></i>
+                                <p data-lang="prisilvep2" class="pricing__list-description">Workout e-book explained by videos</p>
+                            </li>
+                            <li class="pricing__list-item">
+                                <i class="uil uil-check pricing__list-icon"></i>
+                                <p data-lang="prisilvep3" class="pricing__list-description">Cooking e-book</p>
+                            </li>
+                            <li class="pricing__list-item">
+                                <i class="uil uil-check pricing__list-icon"></i>
+                                <p data-lang="prisilvep4" class="pricing__list-description">Check ins & change plans 14 days</p>
+                            </li>
+                            <li class="pricing__list-item">
+                                <i class="uil uil-check pricing__list-icon"></i>
+                                <p data-lang="prisilvep5" class="pricing__list-description">Day by day follow up with Captain Assem</p>
+                            </li>
+                        </ul>
+        
+                        <a data-lang="subscr"  class="button pricing__button" >Join now <i class="ri-compass-discover-fill"></i></a>
+                    </article>
+        
+                    <!--==================== CARD 2 ====================-->
+                    <article class="pricing__content grid">
+                        <div class="pricing__pricing">
+                            <div class="pricing__pricing-number">
+                                <span data-lang="rightprice2" class="pricing__pricing-symbolo">£/750</span>
+        
+                            </div>
+                            <span data-lang="pris4" class="pricing__pricing-month">12/weeks</span>
+                        </div>
+        
+                        <header class="pricing__header">
+                            <div class="pricing__header-circle grid">
+                                <img src="assets/img/enterprise-coin.webp" alt="" class="pricing__header-img">
+                            </div>
+        
+                            <span data-lang="prisilv" class="pricing__header-subtitle">Silver</span>
+                            <h1 data-lang="pripr" class="pricing__header-title">Professional</h1>
+                        </header>
+                        
+                        <ul class="pricing__list grid">
+                            <li class="pricing__list-item">
+                                <i class="uil uil-check pricing__list-icon"></i>
+                                <p data-lang="prisilvep1" class="pricing__list-description">Custom nutrition plan</p>
+                            </li>
+                            <li class="pricing__list-item">
+                                <i class="uil uil-check pricing__list-icon"></i>
+                                <p data-lang="prisilvep2" class="pricing__list-description">Workout e-book explained by videos</p>
+                            </li>
+                            <li class="pricing__list-item">
+                                <i class="uil uil-check pricing__list-icon"></i>
+                                <p data-lang="prisilvep3" class="pricing__list-description">Cooking e-book</p>
+                            </li>
+                            <li class="pricing__list-item">
+                                <i class="uil uil-check pricing__list-icon"></i>
+                                <p data-lang="prisilvep4" class="pricing__list-description">Check ins & change plans 14 days</p>
+                            </li>
+                            <li class="pricing__list-item">
+                                <i class="uil uil-check pricing__list-icon"></i>
+                                <p data-lang="prisilvep5" class="pricing__list-description">Day by day follow up with Captain Assem</p>
+                            </li>
+                        </ul>
+                        
+        
+                        <a data-lang="subscr" href="form.html" class="pricing__button button">Join now <i class="ri-compass-discover-fill"></i></a>
+                    </article>
+        
+                    <!--==================== CARD 3 ====================-->
+                    <article class="pricing__content grid">
+                        <div class="pricing__pricing">
+                            <div class="pricing__pricing-number">
+                                <span data-lang="rightprice3" class="pricing__pricing-symbolo">£/750</span>
+        
+                            </div>
+                            <span data-lang="pris6" class="pricing__pricing-month">12/weeks</span>
+                        </div>
+        
+                        <header class="pricing__header">
+                            <div class="pricing__header-circle grid">
+                                <img src="assets/img/pro-coin.webp" alt="" class="pricing__header-img">
+                            </div>
+        
+                            <span data-lang="prigold" class="pricing__header-subtitle">Gold</span>
+                            <h1 data-lang="prient" class="pricing__header-title">Enterprise</h1>
+                        </header>
+                        
+                        <ul class="pricing__list grid">
+                            <li class="pricing__list-item">
+                                <i class="uil uil-check pricing__list-icon"></i>
+                                <p data-lang="prisgold1" class="pricing__list-description">Custom nutrition plan</p>
+                            </li>
+                            <li class="pricing__list-item">
+                                <i class="uil uil-check pricing__list-icon"></i>
+                                <p data-lang="prisgold2" class="pricing__list-description">Workout e-book explained by videos</p>
+                            </li>
+                            <li class="pricing__list-item">
+                                <i class="uil uil-check pricing__list-icon"></i>
+                                <p data-lang="prisgold3" class="pricing__list-description">Cooking e-book</p>
+                            </li>
+                            <li class="pricing__list-item">
+                                <i class="uil uil-check pricing__list-icon"></i>
+                                <p data-lang="prisgold4" class="pricing__list-description">Check ins & change plans weekly</p>
+                            </li>
+                            <li class="pricing__list-item">
+                                <i class="uil uil-check pricing__list-icon"></i>
+                                <p data-lang="prisgold5" class="pricing__list-description">Daily follow up with captain Assem</p>
+                            </li>
+                            <li class="pricing__list-item">
+                                <i class="uil uil-check pricing__list-icon"></i>
+                                <p data-lang="prisgold6" class="pricing__list-description">5 times per week phone call with captain Assem</p>
+                            </li>
+                        </ul>
+        
+                        <a data-lang="subscr" href="form.html" class="pricing__button button">Join now <i class="ri-compass-discover-fill"></i></a>
+                    </article>
+                </div>
+            </section>
+        </section>
+
+         <!--==================== Recently ====================-->
+        <section class="nutrantion section container" id="calc">
+            <div class="nutrantion__container grid">
+                <img src="assets/img/nnimage-removebg-preview.png" alt="" class="nutrantion__img">
+
+                <div class="nutrantion__data">
+                    <h2 class="section__title nutrantion__title">
+                        NEVER STRESS ABOUT <br> NUTRITION AGAIN
+                    </h2>
+
+                    <p class="nutrantion__description">
+                        We have over 4000+ unbiased reviews and our customers 
+                        trust our plant process and delivery service every time
+                    </p>
+
+                    <div class="nutrantion__details">
+                        <p class="nutrantion__details-description nutrantion__details-icon">
+                            <i class="ri-cake-3-line"></i>
+                            We always deliver on time.
+                        </p>
+                        <p class="nutrantion__details-description nutrantion__details-icon">
+                            <i class="ri-clipboard-fill"></i>
+                            We give you guides to protect and care for your plants.
+                        </p>
+                        <p class="nutrantion__details-description nutrantion__details-icon">
+                            <i class="ri-restaurant-fill"></i>
+                            We always come over for a check-up after sale.
+                        </p>
+                        <p class="nutrantion__details-description nutrantion__details-icon">
+                            <i class="ri-thumb-up-fill"></i>
+                            100% money back guaranteed.
+                        </p>
+                    </div>
+
+                    <a href="#" class="button">
+                        Get Start <i class="ri-arrow-right-down-line button__icon"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        </main>
+
+        <!-- <footer class="footer">
+
+            <div class="footer__container container grid">
+                <div style="justify-content: center; display: flex; align-items: center; flex-direction: column;">
+                   
+                    
+                    <img style="width: 80%;" src="assets/img/PERSONALLOGO.png" alt="" class="footer__image">
+                    <p class="footer__education">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, eveniet?
+                    </p>
+                </div>
+                <div class="footer__social">
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class="ri-facebook-fill"></i>
+                    </a>
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class="ri-youtube-fill"></i>
+                    </a>
+                </div>
+                <span class="footer__copy">
+                    &#169; Copyright <a href="#">Mo ALramly</a>.All Rights Reserved
+                </span>
+            </div>
+        </footer> -->
+        <!--=============== ٍScroll top ===============-->
+        <a href="#" class="scrollup" id="scroll-up"><i class="fa-solid fa-circle-arrow-up scrollup__icon"></i></a>
+
+        <!--=============== MAIN JS ===============-->
+         <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+         <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+         <script src="assets/js/swiper-bundle.min.js"></script>
+         <!-- <script src="assets/js/main.js"></script> -->
+         <script src="assets/js/navall.js"></script>
+         <script src="assets/js/mm.js"></script>
+     </body>
+ </html>

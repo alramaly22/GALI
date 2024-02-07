@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+         <!--=============== FAVICON ===============-->
+         <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+
+         <!--=============== BOXICONS ===============-->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+         <link
+         href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+         rel="stylesheet"
+       />
+         <!--=============== SWIPER CSS ===============--> 
+         <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+ 
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <style>
+            .ytp-title-channel{
+                display: none;
+            }
+        </style>
+        <title>Galilo</title>
+    </head>
+    <body>
+        <div class="loader">
+            <h1 class="loading">
+                Loading
+                <div class="loading__dots">
+                    <span class="loading__dot"></span>
+                    <span class="loading__dot"></span>
+                    <span class="loading__dot"></span>
+                    <span class="loading__dot">
+                        <span class="loading__dot-down"></span>
+                    </span>
+                </div>
+            </h1>
+        </div>
+        <!--=============== NAVBAR ===============-->
+        <nav class="nav">
+            <ul class="nav__list">
+                <a href="#home" class="nav__link active-link">
+                    <i class="ri-home-5-line"></i>
+                    <span class="nav__name">
+                        Home
+                    </span>
+                </a>
+
+                <a href="#newsletter" class="nav__link">
+                    <i class="ri-user-line"></i>
+                    <span class="nav__name">
+                        Profile
+                    </span>
+                </a>
+
+                <a href="#BMR" class="nav__link">
+                    <i class="fa-solid fa-calculator"></i>
+                    <span class="nav__name">
+                        Message
+                    </span>
+                </a>
+
+                <a href="#Podcast" class="nav__link">
+                    <i class="fa-solid fa-podcast"></i>
+                    <span class="nav__name">
+                        Mail
+                    </span>
+                </a>
+
+                <a href="#YouTube" class="nav__link">
+                    <i class="fa-brands fa-youtube"></i>
+                    <span class="nav__name">
+                        Settings
+                    </span>
+                </a>
+
+                <svg class="indicator" width="94" height="56" xmlns="http://www.w3.org/2000/svg">
+                    <ellipse cx="47" cy="28" rx="24" ry="28"/>
+                    <path d="M24 20C24 20 28 55.9999 48 56L0 55.9997C18 55.9998 24 20 24 20Z"/>
+                    <path d="M70 20C70 20 66 55.9999 46 56L94 55.9997C76 55.9998 70 20 70 20Z"/>
+                </svg>
+            </ul>
+        </nav>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+                <div class="containerallpage">
+                <!--==================== HOME ====================-->
+                <section style="padding: 1.5rem 0 0rem" class="home section" id="home">
+                    <img loading="lazy" decoding="async" src="assets/img/personal2.jpg" alt="" class="visit__bg">
+                    <div class="visit__shadow"></div>
+                    <div class="home__container container grid">
+                        <div class="home__content">
+                            <img src="assets/img/personal2.jpg" alt="" class="home__img">
+                            <h1 class="home__title">
+                                <span style="z-index: 12;">G</span>
+                                <span>A</span>
+                                <span style="z-index: 12;">L</span>
+                                <span>I</span>
+                                <span style="z-index: 12;">L</span>
+                                <span>O</span>
+                                <span style="z-index: 12;">O</span>
+                            </h1>
+                            <div class="home__toolip">
+                                <img src="assets/img/tooltip-right.svg" alt="" class="home__tooltip-img">
+                                <span class="home__tooltip-text">$150</span>
+                            </div>
+                        </div>
+                        <a href="#" class="home__button button">
+                            Start Now <i class="fa-solid fa-circle-play"></i>
+                        </a>
+                        <div class="home__social">
+                            <span class="home__social-text">follow us</span>
+                            <div class="home__social-links">
+                                <a href="#" target="_blank" class="home__social-link">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                                <a href="#" target="_blank" class="home__social-link">
+                                    <i class="fa-brands fa-square-instagram"></i>
+                                </a>
+                                <a href="#" target="_blank" class="home__social-link">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                                <a href="#" target="_blank" class="home__social-link">
+                                    <i class="fa-brands fa-tiktok"></i>
+                                </a>                    
+                            </div>
+                        </div>
+                    </div>
+                 </section>
+        
+            <!--==================== newsletter ====================-->
+            <section style="padding: 1.5rem 0 0rem" class="newsletter section" id="newsletter">
+                <div class="newsletter__container container">
+                    <h2 style="text-align: justify; color: #ffffff; font-size: var(--h1-font-size);" class="section__title">
+                        About Galilo
+        
+                    </h2>
+                    <div class="newsletter__content grid">
+                        
+                        <div class="im">
+                        <img src="assets/img/696A6028.jpg" alt="" class="newsletter__img">
+                        </div>
+                        <div class="newsletter__data">
+                            <span class="section__subtitle"> Learn more about</span>
+                            <h2 class="section__title h2center">
+                                Cap Galileo
+        
+                            </h2>
+                            <div  class="newsletter__form">
+                                <!-- <input type="email" placeholder="enter email" class="newsletter__input"> -->
+                            <button class="button newsletter__button">
+                                Know More
+                            </button>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- <img src="assets/img/indicator.svg" alt="" class="newsletter__spinach"> -->
+                </div>
+                </section>
+                <div class="borderall">
+                
+                </div>
+                    <!--==================== newsletter ====================-->
+                    <section style="padding: 1.5rem 0 0rem" class="newsletter section" id="BMR">
+                        <div class="newsletter__container container">
+                            <h2 style="text-align: justify; color: #ffffff; font-size: var(--h1-font-size);" class="section__title">
+                                BMR <i style="color: var(--first-color);" class="fa-solid fa-gift"></i>
+                            </h2>
+                            <div class="newsletter__content grid">
+                                
+                                <div class="im">
+                                <img src="assets/img/calc.jpg" alt="" class="newsletter__img2">
+                                </div>
+                                <div class="newsletter__data">
+                                    <span class="section__subtitle">Click</span>
+                                    <h2 class="section__title h2center">
+                                         To Calculate
+                                    </h2>
+                                    <div  class="newsletter__form">
+                                        <!-- <input type="email" placeholder="enter email" class="newsletter__input"> -->
+                                    <button class="button newsletter__button">
+                                        Get Start
+                                    </button>
+                                </div>
+                                </div>
+                            </div>
+                            <!-- <img src="assets/img/indicator.svg" alt="" class="newsletter__spinach"> -->
+                        </div>
+                        </section>
+                        <div class="borderall">
+                        
+                        </div>
+                    <!--==================== podcast ====================-->
+                    <section style="padding: 1.5rem 0 0rem" class="card section" id="Podcast">
+                        <div class="card__container swiper">
+                            <h2 style="text-align: justify; color: #ffffff; font-size: var(--h1-font-size);     margin-left: var(--mb-1-5);
+                            margin-right: var(--mb-1-5);" class="section__title">
+                                My Podcast
+                
+                            </h2>
+                           <div class="card__content card__contente">
+                              <div class="swiper-wrapper">
+                               <article class="card__article swiper-slide">
+                                   <div class="card__image">
+                                    <iframe class="card__image" width="560" height="315" src="https://www.youtube.com/embed/lXQwCWarc7I?si=8FUNmrqPr-2gibUF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                           </div>
+                                </article>
+                     
+                                 <article class="card__article swiper-slide">
+                                    <div class="card__image">
+                                        <iframe class="card__image" width="560" height="315" src="https://www.youtube.com/embed/lXQwCWarc7I?si=8FUNmrqPr-2gibUF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                            </div>
+                                 </article>
+                     
+                                 <article class="card__article swiper-slide">
+                                    <div class="card__image">
+                                        <iframe class="card__image" width="560" height="315" src="https://www.youtube.com/embed/lXQwCWarc7I?si=8FUNmrqPr-2gibUF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                            </div>
+                                 </article>
+                     
+                                 <article class="card__article swiper-slide">
+                                    <div class="card__image">
+                                        <iframe class="card__image" width="560" height="315" src="https://www.youtube.com/embed/lXQwCWarc7I?si=8FUNmrqPr-2gibUF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                            </div>
+                                 </article>
+               
+                                 <!-- <article class="card__article swiper-slide">
+                                    <div class="card__image">
+                                        <iframe class="card__image" width="560" height="315" src="https://www.youtube.com/embed/lXQwCWarc7I?si=8FUNmrqPr-2gibUF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                            </div>
+                                 </article> -->
+                              </div>
+                           </div>
+               
+                           <div class="swiper-button-next next1">
+                              <i class="ri-arrow-right-s-line"></i>
+                           </div>
+                           
+                           <div class="swiper-button-prev prev1">
+                              <i class="ri-arrow-left-s-line"></i>
+                           </div>
+               
+                           <div class="swiper-pagination pagination"></div>
+                        </div>
+                     </section>
+                     <div class="borderall">
+                
+                     </div>
+
+        
+                                         <!--==================== Transform ====================-->
+                    <section style="padding: 1.5rem 0 0rem" class="newsletter section" id="transformation">
+                        <div class="newsletter__container container">
+                            <h2 style="text-align: justify; color: #ffffff; font-size: var(--h5-font-size);" class="section__title">
+                                Transformation Challenge
+                            </h2>
+                            <div class="newsletter__content grid">
+                                
+                                <div class="im">
+                                <img src="assets/img/ga.jpg" alt="" class="newsletter__img2">
+                                </div>
+                                <div class="newsletter__data">
+                                    <span class="section__subtitle">See Our</span>
+                                    <h2 style="font-size: var(--h6-font-size);" class="section__title h2center">
+                                         success stories
+                                    </h2>
+                                    <div  class="newsletter__form">
+                                        <!-- <input type="email" placeholder="enter email" class="newsletter__input"> -->
+                                    <button class="button newsletter__button">
+                                        See
+                                    </button>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        </section>
+                        <div class="borderall">
+                        
+                        </div>
+                 <!--==================== FAVORITE ====================-->
+                     <section style="padding: 1.5rem 0 0rem" class="card section" id="YouTube">
+                 <div class="card__container swiper">
+                    <h2 style="text-align: justify; color: #ffffff; font-size: var(--h4-font-size);     margin-left: var(--mb-1-5);
+                    margin-right: var(--mb-1-5);" class="section__title">
+                        YouTube Highlights
+                    </h2>
+                    <div class="card__content card__content2">
+                       <div class="swiper-wrapper">
+                        <article class="card__article swiper-slide">
+                            <div class="card__image">
+                               <iframe class="card__image" width="560" height="315" src="https://www.youtube.com/embed/bGSnDm5Ah8Y?si=luEqjGPS1ys-cy6e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                         </article>
+              
+                          <article class="card__article swiper-slide">
+                             <div class="card__image">
+                                <iframe class="card__image" width="560" height="315" src="https://www.youtube.com/embed/bGSnDm5Ah8Y?si=luEqjGPS1ys-cy6e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                             </div>
+                          </article>
+              
+                          <article class="card__article swiper-slide">
+                             <div class="card__image">
+                                <iframe style=":not(.ytp-shorts-mode).ytp-title-enable-channel-logo .ytp-title-text{padding-left: 0;}" class="card__image" width="560" height="315" src="https://www.youtube.com/embed/bGSnDm5Ah8Y?si=luEqjGPS1ys-cy6e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                             </div>
+                          </article>
+              
+                          <article class="card__article swiper-slide">
+                             <div class="card__image">
+                                <iframe class="card__image swiper-slide" width="560" height="315" src="https://www.youtube.com/embed/bGSnDm5Ah8Y?si=luEqjGPS1ys-cy6e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                             </div>
+                          </article>
+        
+                          <!-- <article class="card__article swiper-slide">
+                             <div class="card__image">
+                                <iframe class="card__image swiper-slide" width="560" height="315" src="https://www.youtube.com/embed/bGSnDm5Ah8Y?si=luEqjGPS1ys-cy6e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                             </div>
+                          </article> -->
+                       </div>
+                    </div>
+        
+                    <div class="swiper-button-next next2">
+                       <i class="ri-arrow-right-s-line"></i>
+                    </div>
+                    
+                    <div class="swiper-button-prev prev2">
+                       <i class="ri-arrow-left-s-line"></i>
+                    </div>
+        
+                    <div class="swiper-pagination"></div>
+                 </div>
+              </section>
+              <div class="borderall">
+        
+              </div>
+        
+                 <!--==================== MODEL ====================-->
+                 <section style="padding: 1.5rem 0 0rem" class="join section">
+                    <div class="join__container container grid">
+                        <div class="join__bg grid">
+                            <div class="join__image">
+                                <div class="join__blob">
+                                    <img src="assets/img/personal1.jpg" alt="" class="join__img">
+                                    <h1 class="join__blob-title">Galiloo</h1>
+                                </div>
+                                <div class="join__shadow"></div>
+                            </div>
+                            <div class="join__content grid">
+                                <div class="join__data">
+                                    <h2 style="color: #c0964c;" class="section__title">Sign Up Here</h2>
+                                    <p style="margin-top: 3rem;" class="join__description">
+                                        Every week, I will send you exclusive <br> behind-the-scenes insights and actionable tips to transform your life
+                                    </p>
+                                </div>
+                                <form action="" class="join__from">
+                                    <input type="email" placeholder="enter your email" class="join__input">
+                                    <button class="button join__button">
+                                        join now
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                 </section>
+                 <div class="borderall">
+                
+                 </div>
+                 <!--==================== Footer====================-->
+                 <footer class="footer">
+            <div class="footer__container container">
+                <h1 class="footer__title">Galiloo</h1>
+                <ul class="footer__list">
+                    <li>
+                        <a href="#" class="footer__link">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Project</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Testimonial</a>
+                    </li>
+                </ul>
+               <ul class="footer__social">
+                <a href="" target="_blank" class="footer__social-link">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="" target="_blank" class="footer__social-link">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+                <a href="" target="_blank" class="footer__social-link">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="" target="_blank" class="footer__social-link">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+               </ul>
+               <span class="footer__copy">
+                &#169; <a style="color: #dedcda;" href="#">MO Alramaly</a>.All rights reserved
+               </span>
+            </div>
+            </footer>
+                 
+</div>
+
+
+         
+        </main>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/galilo.js"></script>
+    </body>
+</html>
